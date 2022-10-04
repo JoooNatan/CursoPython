@@ -1,0 +1,1 @@
+n = len(input('Digite um numero '))
