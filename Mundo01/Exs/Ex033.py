@@ -17,5 +17,5 @@ else:
     else:
         maior = n3
 
-print('O maior numero foi: {}'.format(maior))
-print('O menor numero foi: {}'.format(menor))
+print('O maior numero foi: {}{}{}'.format('\033[32m', maior, '\033[m'))
+print('O menor numero foi: {}{}{}'.format('\033[32m', menor, '\033[m'))
