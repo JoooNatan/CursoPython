@@ -23,19 +23,19 @@ else:
             print('\033[1;33mEmpate\033[m')
         elif op == 2:
             print('\033[1;32mVoce ganhou\033[m')
-        elif op == 3:
+        else:
             print('\033[1;31mVoce perdeu\033[m')
     elif pc == 2:
         if op == 1:
             print('\033[1;31mVoce perdeu\033[m')
         elif op == 2:
             print('\033[1;33mEmpate\033[m')
-        elif op == 3:
+        else:
             print('\033[1;32mVoce ganhou\033[m')
     else:
         if op == 1:
             print('\033[1;32mVoce ganhou\033[m')
         elif op == 2:
             print('\033[1;31mVoce perdeu\033[m')
-        elif op == 3:
+        else:
             print('\033[1;33mEmpate\033[m')
