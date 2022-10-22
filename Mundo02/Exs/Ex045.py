@@ -17,24 +17,25 @@ if op > 3:
     print('Opção invalida!')
 else:
     print('Pc jogou {}'.format(itens[pc]))
+    print('Resultado: ', end = '')
     if pc == 1:
         if op == 1:
-            print('Empate')
+            print('\033[1;33mEmpate\033[m')
         elif op == 2:
-            print('Voce ganhou')
+            print('\033[1;32mVoce ganhou\033[m')
         elif op == 3:
-            print('Voce perdeu')
+            print('\033[1;31mVoce perdeu\033[m')
     elif pc == 2:
         if op == 1:
-            print('Voce perdeu')
+            print('\033[1;31mVoce perdeu\033[m')
         elif op == 2:
-            print('Empate')
+            print('\033[1;33mEmpate\033[m')
         elif op == 3:
-            print('Voce ganhou')
+            print('\033[1;32mVoce ganhou\033[m')
     else:
         if op == 1:
-            print('Voce ganhou')
+            print('\033[1;32mVoce ganhou\033[m')
         elif op == 2:
-            print('Voce perdeu')
+            print('\033[1;31mVoce perdeu\033[m')
         elif op == 3:
-            print('Empate')
+            print('\033[1;33mEmpate\033[m')
