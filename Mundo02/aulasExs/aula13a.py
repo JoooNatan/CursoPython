@@ -1,4 +1,4 @@
-for c in range(1, 21, 3):#range == intervalo | terceiro numero == passo
+for c in range(1, 21, 3):#1 inicio | 21 range == intervalo | terceiro numero == passo
     if c % 2 == 0:
         print('[{}]'.format(c), end=' ')
     else:
