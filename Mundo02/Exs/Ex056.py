@@ -1,6 +1,7 @@
 media = 0
 homemMaisVelho = 0
 mulheresMenosDe20 = 0
+nomeHomemMaisVelho = ''
 
 for c in range(1, 5):
     print("--- {}° pessoa ---".format(c))
