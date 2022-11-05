@@ -23,6 +23,6 @@ while op != 5:
             print(n2)
             
     elif op == 4:
-        n1 = int(input('Digite o primeiro valor: '))
-        n2 = int(input('Digite o segundo valor: '))
+        n1 = int(input('Primeiro valor: '))
+        n2 = int(input('Segundo valor: '))
     print('-' * 30)
