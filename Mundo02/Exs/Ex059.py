@@ -11,14 +11,17 @@ while op != 5:
 
     if op == 1:
         print('Resultado: {}'.format(n1 + n2))
+
     elif op == 2:
         print('Resultado: {}'.format(n1 * n2))
+
     elif op == 3:
         print('Maior numero: ', end = '')
         if n1 > n2:
             print(n1)
         else:
             print(n2)
+            
     elif op == 4:
         n1 = int(input('Digite o primeiro valor: '))
         n2 = int(input('Digite o segundo valor: '))
