@@ -3,7 +3,7 @@ n2 = int(input('Digite o segundo valor: '))
 op = 0
 
 while op != 5:
-    if op > 5:
+    if op > 5 or op < 1:
         print('\033[31mOpção invalida\033[m! digite novamente')
 
     print('[ 1 ] somar\n[ 2 ] multiplicar\n[ 3 ] maior\n[ 4 ] novos números\n[ 5 ] sair do programa')
