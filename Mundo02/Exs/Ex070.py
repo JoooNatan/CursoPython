@@ -19,7 +19,7 @@ while True:
     if res == 'N':
         break
 
-print('{:-^40}'.format(' FIM '))
+print('{:-^40}'.format(' FIM DO PROGRAMA '))
 print(f'O total da compra foi {tot:.2f}')
 print(f'{totMil} produtos custam mais de R$1000')
 print(f'O produto mais barato foi {barato} e custou R${menorPreco:.2f}')
