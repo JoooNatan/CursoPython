@@ -4,7 +4,6 @@ print('{:^45}'.format(' Banco NJ '))
 print('-' * 45)
 valor = int(input('Qual valor voce quer sacar? '))
 
-
 while True:
     if valor == 0:
         break
