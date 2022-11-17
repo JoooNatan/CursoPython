@@ -25,4 +25,4 @@ while True:
 print(f'Total de cedulas de R$50: {n50}')
 print(f'Total de cedulas de R$20: {n20}')
 print(f'Total de cedulas de R$10: {n10}')
-print(f'Total de cedulas de R$1: {n1}')
+print(f'Total de cedulas de R$1:  {n1}')
