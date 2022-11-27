@@ -34,7 +34,7 @@ for c, v in enumerate(num):#(c = indice, v = valor do determinado indice)
 
 valores = []
 for cont in range(0, 4):
-    valores.append(int(input('Digite um valor: ')))
+    valores.append(int(input('Digite um valor: ')))#adiciona valores a lista
 
 print(valores)
 
