@@ -13,7 +13,7 @@ for cont in range(0, 5):
 
 print(f'Voce digitou os valores {nums}')
 print(f'O maior valor foi {maior} na posicao: ', end = '')
-for i, v in enumerate(nums):
+for i, v in enumerate(nums):#(i = indice, v = valor do determinado indice)
     if v == maior:
         print(f'{i}.. ', end = '')
 
