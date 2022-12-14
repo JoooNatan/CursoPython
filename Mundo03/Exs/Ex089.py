@@ -23,7 +23,7 @@ while True:
     nAluno = int(input('Mostrar notas de qual aluno?(999 interrompe) '))
     if nAluno == 999:
         break
-    if nAluno >= len(alunos) or nAluno < len(alunos):
+    if nAluno >= len(alunos) or nAluno < 0:
         nAluno = int(input('Numero invalido! Digite novamente: '))
 
     print(f'Notas de {alunos[nAluno][0]} são {alunos[nAluno][1]} e {alunos[nAluno][2]}')
