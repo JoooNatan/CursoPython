@@ -1,6 +1,7 @@
 from random import randint
 from time import sleep
 from operator import itemgetter
+
 ranking = []
 jogo = {'jogador1': randint(1, 6),
 'jogador2': randint(1, 6),
