@@ -21,6 +21,7 @@ while True:
         print('ERRO! Responda apenas S ou N.')
     if op == 'N':
         break
+    print('-' * 22)
 
 media = soma / len(pessoas)
 print(f'A) Ao todo temos {len(pessoas)} cadastradas')
