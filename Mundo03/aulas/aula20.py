@@ -10,7 +10,7 @@ def soma(n1, n2):
 soma(4,5)
 
 
-def contador(* n):
+def contador(* n):#Aceita diferentes numeros como parametro
     print(f'Recebi os valores {n} e o tamanho é {len(n)}')
 contador(1, 2, 7)
 
